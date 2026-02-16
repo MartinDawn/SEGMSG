@@ -183,12 +183,16 @@ class ChatApp:
             w = self.sessions[idx]['log']
             w.config(state='normal')
             
-            # Thêm dòng phân cách nếu là Log block mới
+            is_scrolled_to_bottom = w.yview()[1] == 1.0
+            
             if "---" in text or ">>>" in text or "<<<" in text:
                 w.insert(tk.END, "\n" + "="*60 + "\n", "header")
             
             w.insert(tk.END, text + "\n", tag)
-            w.see(tk.END)
+            
+            if is_scrolled_to_bottom:
+                w.see(tk.END)
+                
             w.config(state='disabled')
 
     def on_closing(self):

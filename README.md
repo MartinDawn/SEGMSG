@@ -120,13 +120,13 @@ This project is designed for learning cryptography and secure network programmin
 ## Architecture Overview
 
 ```
-┌─────────────────┐           Network           ┌─────────────────┐
+┌─────────────────┐           Network           ┌──────────────────┐
 │   Peer A        │ ◄──────────────────────────► │   Peer B        │
 │  (chat_gui.py)  │                              │  (chat_gui.py)  │
 └────────┬────────┘                              └────────┬────────┘
          │                                                 │
          │                                                 │
-    ┌────▼─────────────────────────────────────────────────▼─────┐
+    ┌────▼─────────────────────────────────────────────────▼──────┐
     │  Protocol Layer (v0_1.py)                                   │
     │  - Message serialization/deserialization                    │
     │  - Protocol validation                                      │
@@ -174,8 +174,6 @@ Contributions are welcome! Please feel free to:
 This is an educational project created to demonstrate cryptographic concepts and secure peer-to-peer communication. While the implementations are correct, this is not recommended for production use in security-critical applications without professional security review.
 
 ## Author
-
-[Your name/team]
 
 ## Mô Hình Đe Dọa & Đánh Giá Bảo Mật (Threat Model & Security Assessment)
 
