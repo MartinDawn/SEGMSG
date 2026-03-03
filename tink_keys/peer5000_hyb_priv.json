@@ -1,0 +1,15 @@
+{
+  "primaryKeyId": 1559630876,
+  "key": [
+    {
+      "keyData": {
+        "typeUrl": "type.googleapis.com/google.crypto.tink.EciesAeadHkdfPrivateKey",
+        "value": "EooBEkQKBAgCEAMSOhI4CjB0eXBlLmdvb2dsZWFwaXMuY29tL2dvb2dsZS5jcnlwdG8udGluay5BZXNHY21LZXkSAhAQGAEYARogRCVv+P9/aMhYdWrVcF40s6yN1jVx6uXyxzhrsBNy328iIAHEM9Cf0UknkVQhqWdwpMM7YeYkRaYIiFBpS0CnmUg4GiDQ7zkWiHwAxW+TC9XZNSE2SpcA9uHAuqon+RHiv8pfMQ==",
+        "keyMaterialType": "ASYMMETRIC_PRIVATE"
+      },
+      "status": "ENABLED",
+      "keyId": 1559630876,
+      "outputPrefixType": "TINK"
+    }
+  ]
+}
