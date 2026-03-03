@@ -1,0 +1,15 @@
+{
+  "primaryKeyId": 436686960,
+  "key": [
+    {
+      "keyData": {
+        "typeUrl": "type.googleapis.com/google.crypto.tink.EcdsaPrivateKey",
+        "value": "EkwSBggDEAIYAhogNmjd8X1qZvevrtA5WMIxxRrdQ40dLhF7PmtsbCSoyKciILdSpPQ+6i96hWk+Rt8N1lfC812i0Zfwm6XJHJnyT906GiA5BmrDmqoCZyW6Z4bzdhtkPbESwfCqwhJJvvmSBlYx1A==",
+        "keyMaterialType": "ASYMMETRIC_PRIVATE"
+      },
+      "status": "ENABLED",
+      "keyId": 436686960,
+      "outputPrefixType": "TINK"
+    }
+  ]
+}
